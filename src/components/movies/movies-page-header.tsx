@@ -5,22 +5,16 @@ const MoviesPageHeader = () => {
   return (
     <section className="py-10">
       <div className="max-w-3xl">
-        <Badge
-          variant="secondary"
-          className="mb-4"
-        >
-          Now showing
+        <Badge variant="secondary" className="mb-4">
+          En cartelera
         </Badge>
-
         <h1 className="text-4xl font-bold tracking-tight text-balance">
-          Browse movies
+          Explorar películas
         </h1>
-
         <p className="mt-3 text-lg text-muted-foreground">
-          Find the next movie you want to watch and explore available tickets.
+          Descubre las películas más populares y compra tu entrada desde aquí.
         </p>
       </div>
-
       <Separator className="mt-8" />
     </section>
   );

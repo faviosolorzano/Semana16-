@@ -1,7 +1,1 @@
-export interface Movie {
-  id: string;
-  title: string;
-  genre: string;
-  posterUrl: string;
-  synopsis: string;
-}
+export type { TMDBMovie as Movie } from "./tmdb";
